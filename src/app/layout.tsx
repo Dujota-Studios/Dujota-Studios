@@ -1,10 +1,15 @@
 import "~/styles/globals.css";
 
-import { Inter } from "next/font/google";
+import {  Work_Sans, Anybody } from "next/font/google";
 
-const inter = Inter({
+const workSans = Work_Sans({
   subsets: ["latin"],
   variable: "--font-sans",
+});
+
+const anybody = Anybody({
+  subsets: ["latin"],
+  variable: "--font-anybody",
 });
 
 export const metadata = {
@@ -20,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.variable}`}>{children}</body>
+      <body className={`font-anybody ${anybody.variable} font-sans ${workSans.variable}`}>{children}</body>
     </html>
   );
 }
