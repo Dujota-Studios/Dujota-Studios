@@ -91,7 +91,7 @@ const Testimonials: NextPage = () => {
             </div>
             <div className="relative flex-1 self-stretch font-paragraph-regular-semibold text-[0.88rem] leading-[1.25rem]">
               <p className="[margin-block-end:16px] [margin-block-start:0]">
-                "Incredible group of people and talented professionals. Focused
+                Incredible group of people and talented professionals. Focused
                 on the development of flexible and new stuffs.
               </p>
               <p className="m-0">
