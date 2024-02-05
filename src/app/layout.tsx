@@ -1,6 +1,6 @@
 import "~/styles/globals.css";
 
-import {  Work_Sans, Anybody } from "next/font/google";
+import { Work_Sans, Anybody } from "next/font/google";
 
 const workSans = Work_Sans({
   subsets: ["latin"],
@@ -25,7 +25,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-anybody ${anybody.variable} font-sans ${workSans.variable}`}>{children}</body>
+      <body
+        className={`mx-auto my-0 font-anybody ${anybody.variable} font-sans ${workSans.variable}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
