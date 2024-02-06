@@ -6,7 +6,7 @@ export default function Navbar() {
       aria-label="desktop navigation menu"
       className="flex max-w-full flex-row items-center justify-end gap-[2rem] self-stretch mq450:gap-[2rem]"
     >
-      <ul className="mq900:hidden flex  max-w-full list-none flex-row items-center justify-center gap-[1.5rem] ">
+      <ul className="flex·max-w-full mq900:hidden list-none flex-row items-center justify-center gap-[1.5rem]">
         <li className="relative">
           <Link
             href="#"
