@@ -3,7 +3,8 @@ import type { NextPage } from "next";
 const Testimonials: NextPage = () => {
   return (
     <section
-      className="box-border flex max-w-full flex-col items-start justify-start gap-[1.5rem] self-stretch overflow-hidden py-[3rem] pl-[1rem] pr-[0rem] text-left font-headings-h4-desktop text-[1.25rem] text-secondary-3 mq750:box-border mq750:pb-[1.94rem] mq750:pt-[1.94rem]"
+      // className="box-border flex max-w-full flex-col items-start justify-start gap-[1.5rem] self-stretch overflow-hidden py-[3rem] pl-[1rem] pr-[0rem] text-left font-headings-h4-desktop text-[1.25rem] text-secondary-3 mq750:box-border mq750:pb-[1.94rem] mq750:pt-[1.94rem]"
+      className="mq900:gap-[2rem] mq900:py-[3.25rem] mq900:px-[2.5rem] mq900:box-border box-border flex max-w-full flex-col items-center justify-start gap-[3rem] self-stretch overflow-hidden p-[5rem] text-left font-headings-h4-desktop text-[1.5rem] text-secondary-3"
       aria-labelledby="testimonials-heading"
     >
       <h2
@@ -22,7 +23,7 @@ const Testimonials: NextPage = () => {
         >
           <div className="flex h-[11.75rem] flex-col items-start justify-start gap-[0.75rem] self-stretch">
             <h3 className="relative inline-block h-[2.5rem] self-stretch font-medium leading-[1.25rem]">
-              &quot;The best people i have ever worked with&quot;
+              &quot;The best people I have ever worked with&quot;
             </h3>
             <div className="relative flex-1 self-stretch font-paragraph-regular-semibold text-[0.88rem] leading-[1.25rem]">
               <p className="[margin-block-end:16px] [margin-block-start:0]">
@@ -50,7 +51,7 @@ const Testimonials: NextPage = () => {
         >
           <div className="flex h-[11.75rem] flex-col items-start justify-start gap-[0.75rem] self-stretch">
             <h3 className="relative inline-block h-[2.5rem] self-stretch font-medium leading-[1.25rem]">
-              &quot;The best people i have ever worked with&quot;
+              &quot;The best people I have ever worked with&quot;
             </h3>
             <div className="relative flex-1 self-stretch font-paragraph-regular-semibold text-[0.88rem] leading-[1.25rem]">
               <p className="[margin-block-end:16px] [margin-block-start:0]">
@@ -78,7 +79,7 @@ const Testimonials: NextPage = () => {
         >
           <div className="flex h-[11.75rem] flex-col items-start justify-start gap-[0.75rem] self-stretch">
             <h3 className="relative inline-block h-[2.5rem] self-stretch font-medium leading-[1.25rem]">
-              &quot;The best people i have ever worked with&quot;
+              &quot;The best people I have ever worked with&quot;
             </h3>
             <div className="relative flex-1 self-stretch font-paragraph-regular-semibold text-[0.88rem] leading-[1.25rem]">
               <p className="[margin-block-end:16px] [margin-block-start:0]">
@@ -106,7 +107,7 @@ const Testimonials: NextPage = () => {
         >
           <div className="flex h-[11.75rem] flex-col items-start justify-start gap-[0.75rem] self-stretch">
             <h3 className="relative inline-block h-[2.5rem] self-stretch font-medium leading-[1.25rem]">
-              &quot;The best people i have ever worked with&quot;
+              &quot;The best people I have ever worked with&quot;
             </h3>
             <div className="relative flex-1 self-stretch font-paragraph-regular-semibold text-[0.88rem] leading-[1.25rem]">
               <p className="[margin-block-end:16px] [margin-block-start:0]">
