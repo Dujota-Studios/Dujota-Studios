@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SecondaryAltButton from "../../buttons/secondary-alt";
 
 export default function NavBar() {
   return (
@@ -11,20 +12,23 @@ export default function NavBar() {
         height={0}
         src="/logos/primary-tagline.svg"
       />
-      <button
-        aria-label="Toggle mobile menu"
-        className="cursor-pointer border-none bg-transparent"
-      >
-        <Image
-          className="relative h-[1.5rem] w-[1.5rem] shrink-0 overflow-hidden"
-          id="mobile-menu-icon"
-          alt="Mobile Menu Icon"
-          role="presentation"
-          width={0}
-          height={0}
-          src="/icons/mobile-menu.svg"
-        />
-      </button>
+      <div className="flex w-[30.69rem] max-w-full flex-row items-center justify-end gap-[2rem] self-stretch mq450:gap-[2rem]">
+        <SecondaryAltButton />
+        <button
+          aria-label="Toggle mobile menu"
+          className="cursor-pointer border-none bg-transparent"
+        >
+          <Image
+            className="relative h-[1.5rem] w-[1.5rem] shrink-0 overflow-hidden"
+            id="mobile-menu-icon"
+            alt="Mobile Menu Icon"
+            role="presentation"
+            width={0}
+            height={0}
+            src="/icons/mobile-menu.svg"
+          />
+        </button>
+      </div>
     </header>
   );
 }

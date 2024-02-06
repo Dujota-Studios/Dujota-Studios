@@ -8,7 +8,7 @@ export default function ButtonPrimary() {
   return (
     <>
       <button
-        className="flex cursor-pointer flex-row items-center justify-center self-stretch whitespace-nowrap rounded-2xl bg-secondary-3 px-[2.5rem] py-[0.75rem] [border:none] hover:bg-teal"
+        className="flex cursor-pointer flex-row items-center justify-center whitespace-nowrap rounded-2xl bg-secondary-3 px-[2.5rem] py-[1rem] [border:none] hover:bg-teal mq623:self-stretch mq450:py-[0.75rem]"
         aria-label="Contact us for custom software solutions"
         onClick={() => setOpen(true)}
       >
