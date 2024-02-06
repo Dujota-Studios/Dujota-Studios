@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import CoverImages from "./cover-images";
+import ButtonPrimary from "~/components/common/buttons/primary";
 
 const Hero: NextPage = () => {
   return (
@@ -19,14 +20,7 @@ const Hero: NextPage = () => {
             We do custom software solutions and consulting
           </h1>
         </div>
-        <button
-          className="flex cursor-pointer flex-row items-center justify-center self-stretch whitespace-nowrap rounded-2xl bg-secondary-3 px-[2.5rem] py-[0.75rem] [border:none] hover:bg-teal"
-          aria-label="Contact us for custom software solutions"
-        >
-          <span className="relative text-left font-paragraph-regular-semibold text-[1.25rem] font-medium leading-[1.5rem] text-colors-background-bg-primary">
-            Get in Touch
-          </span>
-        </button>
+        <ButtonPrimary />
       </header>
       <CoverImages />
     </section>
