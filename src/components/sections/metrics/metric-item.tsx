@@ -7,9 +7,9 @@ type MetricItemType = {
 
 const MetricItem: NextPage<MetricItemType> = ({ number, heading }) => {
   return (
-    <figure className="m-0 flex w-[22.38rem] min-w-[15rem] max-w-full flex-col items-start justify-start gap-[0.75rem] text-left font-headings-h4-desktop text-[3rem] text-secondary-1">
+    <figure className="m-0 flex w-[16.5rem] min-w-[15rem] max-w-full flex-col items-start justify-start gap-[0.75rem] text-left font-headings-h4-desktop text-[3rem] text-secondary-1 mq450:w-full mq450:min-w-[5rem]">
       <figcaption
-        className="flex flex-col items-start justify-start gap-[0.75rem] self-stretch"
+        className="flex flex-col items-start justify-start gap-[0.75rem] self-stretch mq623:text-center"
         aria-labelledby="metric-number metric-heading"
       >
         <strong

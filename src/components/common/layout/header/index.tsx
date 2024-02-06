@@ -1,34 +1,15 @@
-import Image from "next/image";
+import Logo from "~/components/logo";
+import Navbar from "./navbar";
 import SecondaryAltButton from "../../buttons/secondary-alt";
+import MobileMenu from "../../buttons/mobile-menu";
 
-export default function NavBar() {
+export default function Header() {
   return (
     <header className="sticky top-[0] z-[99] flex flex-row items-center justify-between gap-[1.25rem] self-stretch bg-primary-2 px-[1rem] py-[1.5rem]">
-      <Image
-        className="relative h-[2rem] w-[9.44rem] shrink-0 overflow-hidden"
-        loading="eager"
-        alt="Dujota Studios Logo"
-        width={0}
-        height={0}
-        src="/logos/primary-tagline.svg"
-      />
-      <div className="flex w-[30.69rem] max-w-full flex-row items-center justify-end gap-[2rem] self-stretch mq450:gap-[2rem]">
-        <SecondaryAltButton />
-        <button
-          aria-label="Toggle mobile menu"
-          className="cursor-pointer border-none bg-transparent"
-        >
-          <Image
-            className="relative h-[1.5rem] w-[1.5rem] shrink-0 overflow-hidden"
-            id="mobile-menu-icon"
-            alt="Mobile Menu Icon"
-            role="presentation"
-            width={0}
-            height={0}
-            src="/icons/mobile-menu.svg"
-          />
-        </button>
-      </div>
+      <Logo />
+      <Navbar />
+      <SecondaryAltButton />
+      <MobileMenu />
     </header>
   );
 }

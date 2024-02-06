@@ -4,7 +4,7 @@ import ButtonSecondary from "~/components/common/buttons/secondary";
 
 const Projects: NextPage = () => {
   return (
-    <section className="flex flex-col items-center justify-start gap-[2.5rem] self-stretch px-[1rem] text-center font-headings-h4-desktop text-[1.13rem] text-secondary-3 mq1275:box-border mq1275:pb-[3.25rem] mq1275:pt-[3.25rem] mq1100:box-border mq1100:pb-[2.13rem] mq1100:pt-[2.13rem] mq750:box-border mq750:pb-[1.38rem] mq450:py-[5rem]">
+    <section className="flex flex-col items-center justify-start gap-[2.5rem] self-stretch px-[1rem] pb-[3.25rem] text-center font-headings-h4-desktop text-[1.13rem] text-secondary-3 mq1275:box-border mq1275:pt-[3.25rem] mq1100:box-border mq1100:pb-[2.13rem] mq1100:pt-[2.13rem] mq750:box-border mq750:pb-[1.38rem] mq623:py-[3rem]">
       <header className="flex flex-col items-center justify-center gap-[1rem] self-stretch">
         <h2 className="font-inherit relative m-0 self-stretch text-[1.5rem] font-semibold leading-[1.75rem] text-secondary-3">
           Recent Projects
