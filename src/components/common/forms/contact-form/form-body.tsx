@@ -73,7 +73,7 @@ const ContactForm: NextPage = () => {
             />
           </div>
           <div className="text-input-text-hint relative self-stretch text-[0.88rem] leading-[1rem]">
-            We won't be spamming.
+            We won&apos;t be spamming.
           </div>
         </div>
       </div>
