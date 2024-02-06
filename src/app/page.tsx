@@ -10,6 +10,7 @@ import NewsLetter from "../components/sections/news-letter";
 import Footer from "../components/common/layout/footer";
 import PageWrapper from "~/components/common/containers/page-wrapper";
 import Header from "~/components/common/layout/header";
+import ModalFullScreenSM from "~/components/common/modals/full-screen-sm-modal";
 
 const HomePage: NextPage = () => {
   return (
