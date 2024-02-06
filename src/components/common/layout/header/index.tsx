@@ -11,14 +11,20 @@ export default function NavBar() {
         height={0}
         src="/logos/primary-tagline.svg"
       />
-      <Image
-        className="relative h-[1.5rem] w-[1.5rem] shrink-0 overflow-hidden"
-        id="mobile-menu-icon"
-        alt="Mobile Menu Icon"
-        width={0}
-        height={0}
-        src="/icons/mobile-menu.svg"
-      />
+      <button
+        aria-label="Toggle mobile menu"
+        className="cursor-pointer border-none bg-transparent"
+      >
+        <Image
+          className="relative h-[1.5rem] w-[1.5rem] shrink-0 overflow-hidden"
+          id="mobile-menu-icon"
+          alt="Mobile Menu Icon"
+          role="presentation"
+          width={0}
+          height={0}
+          src="/icons/mobile-menu.svg"
+        />
+      </button>
     </header>
   );
 }
