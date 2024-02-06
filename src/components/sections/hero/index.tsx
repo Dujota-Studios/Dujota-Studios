@@ -15,7 +15,7 @@ const Hero: NextPage = () => {
           </div> */}
           <h1
             id="main-heading"
-            className="font-inherit relative m-0 self-stretch text-[4rem] font-medium leading-[3.5rem] mq623:text-[3rem] mq450:text-[2rem] mq450:leading-[2.25rem]"
+            className="font-inherit relative m-0 mx-auto w-[60%] self-stretch text-[6rem] font-medium leading-[5.5rem] mq1100:w-full mq1100:text-[5rem] mq750:text-[4rem] mq750:leading-[3.5rem] mq623:text-[3rem] mq450:text-[2rem] mq450:leading-[2.25rem]"
           >
             We do custom software solutions and consulting
           </h1>

@@ -89,6 +89,9 @@ export default {
         mq750: {
           raw: "screen and (max-width: 750px)",
         },
+        mq900: {
+          raw: "screen and (max-width: 900px)",
+        },
         mq623: {
           raw: "screen and (max-width: 623px)",
         },
